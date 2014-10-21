@@ -5,9 +5,11 @@
 }
 
 body {
+    min-height: 740px;
 	font-family: 'Lato', sans-serif;
 	font-size: 10px;
-    min-height: 740px;
+	color: rgb(100, 145, 115);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
 	background: -webkit-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* Chrome 10+, Saf5.1+ */
 	background:    -moz-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* FF3.6+ */
 	background:     -ms-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* IE10 */
@@ -16,7 +18,7 @@ body {
 }
 
 .step {
-	width: 700px;
+	width: 900px;
 	height: 700px;
 	background: rgba(255, 255, 255, .6);
 	text-align: center;
@@ -27,8 +29,6 @@ body {
 
 .step h1 {
 	font-size: 5em;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
-	color: rgb(100, 145, 115);
 }
 
 .step pre {
@@ -38,4 +38,9 @@ body {
 
 .step code {
 	background: rgba(100, 145, 115, .6);
+}
+
+.step p {
+	font-size: 1.75em;
+	padding: 1em;
 }
