@@ -30,3 +30,12 @@ body {
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
 	color: rgb(100, 145, 115);
 }
+
+.step pre {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+.step code {
+	background: rgba(100, 145, 115, .6);
+}
