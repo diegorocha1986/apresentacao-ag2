@@ -5,5 +5,6 @@
 __Tópicos__
 
 - Animações CSS3
-- Origens
-- Vantagens
+- Origens / Vantagens
+- Transitions
+- Animations
