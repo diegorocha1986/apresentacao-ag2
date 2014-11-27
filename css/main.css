@@ -19,7 +19,10 @@ body {
 }
 
 a {
-	color: #000;
+	background: #000;
+	text-decoration: none;
+	color: #FFF;
+	padding: .2em .5em;
 }
 
 .step {
@@ -39,7 +42,8 @@ a {
 	font-size: 5em;
 }
 
-.step h1.thanks {
+.step h1.thanks,
+.step h1.beginning {
 	font-size: 9em;
 }
 
@@ -66,6 +70,16 @@ a {
 	}
 }
 
+.step h2 {
+	font-size: 3em;
+}
+
+.step h2 span {
+	background: #000;
+	color: #FFF;
+	padding: .5em;
+}
+
 .step .ttl-code {
 	font-size: 2em;
 	text-align: left;
@@ -87,7 +101,7 @@ a {
 	width: 50%;
 	float: left;
 	position: relative;
-	top: -2em;
+	top: -1em;
 }
 
 .step p {
